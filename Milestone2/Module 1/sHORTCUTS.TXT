@@ -1,0 +1,1 @@
+.container>.food*12>img[src="images/f.jpg"]+h3{Food Item - $}+p{Price: \$$00}+p>lorem20^btn{Buy Now}
