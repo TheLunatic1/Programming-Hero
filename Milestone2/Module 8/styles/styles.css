@@ -1,0 +1,17 @@
+.row{
+    height: 400px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+}
+
+.var img{
+    height: 50%;
+}
