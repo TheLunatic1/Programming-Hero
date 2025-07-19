@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tRANSITION</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 2px solid pink;
+            background-color: blueviolet;
+            transition: all 1s linear .01s;
+        }
+        .box:hover{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            transform: rotate(45deg) translateX(100px);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Transform: Change the name. This is a css proparty name.</li>
+        <li>Translate: its ia value of Transform style rule. This means move to X or Y axis</li>
+        <li>Transition: How long it will take to change  of colour or shape</li>
+    </ul>
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</body>
+</html>
