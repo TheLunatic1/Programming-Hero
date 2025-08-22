@@ -9,7 +9,23 @@
 <!-- tailwindcss -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    
+<body class="bg-[#F4F5F7] h-[100vh] flex flex-col justify-center items-center">
+    <div class="h-[130px] w-[300px] bg-[url(./assets/bg.png)] bg-cover flex justify-center items-center">
+    <img src="./assets/Group.png" alt="">
+    </div>
+    <form class="w-[350px] bg-white rounded-2xl p-8">
+        <div>
+            <label class="font-semibold" for="Mobile Number">Mobile Number</label>
+            <br/>
+            <input id="mobile-number" type="text" placeholder="Enter your Number" class="input bg-[#F4F5F7] mt-3 rounded-3xl" />
+        </div>
+        <div class="mt-5">
+            <label class="font-semibold" for="4 Digit Pin">4 Digit Pin</label>
+            <br/>
+            <input id="4-digit-pin" type="text" placeholder="Enter 4 Digit Pin" class="input bg-[#F4F5F7] mt-3 rounded-3xl" />
+        </div>
+        <button type="button" id="login-submit" class="btn text-white bg-[#0874F2] mt-5 w-full rounded-3xl">Login</button>
+    </form>
+    <script src="Sscript.js"></script>
 </body>
 </html>
