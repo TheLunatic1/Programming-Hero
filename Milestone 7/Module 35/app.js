@@ -49,6 +49,10 @@ function sum(a, b) {
 } // Function to calculate and print the sum of two numbers
 sum(5, 10); // Invoking the function with arguments 5 and 10
 
+// Arrow function
+const multiply = (x, y) => x * y; // Arrow function to multiply two numbers (can use {} for multiple statements but has to use return keyword)
+console.log(multiply(4, 6)); // Invoking the arrow function with arguments 4 and 6
+    // arguments object is not available in arrow functions
 
 // object declaration and property access
 const person = {
@@ -67,4 +71,8 @@ console.log(person["lastName"]); // Accessing property using bracket notation ex
 console.log(Object.keys(person)); // Getting all keys of the object example: ["firstName", "lastName", "age", "city"]
 console.log(Object.values(person)); // Getting all values of the object example: ["Jane", "Doe", 31, "New York"]
 
+
+// template literals ""/''  ``
+const greeting = `Hello, my name is ${person.firstName} ${person.lastName} and I am ${person.age} years old.`; // Using template literals to create a greeting message
+console.log(greeting); // Printing the greeting message
 
