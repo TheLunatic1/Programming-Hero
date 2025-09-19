@@ -9,9 +9,21 @@ const Countries = ({ countriesPromise }) => {
 
     const [visitedCount, setVisitedCount] = useState([]);
     const handleVisitedChange = (country) => {
-        const newVisitedCount = [...visitedCount, country];
-        setVisitedCount(newVisitedCount);
+            // const newVisitedCount = [...visitedCount, country];
+            // setVisitedCount(newVisitedCount);
+        setVisitedCount(prevVisited => {
+            // Check if the country is already in the visited list
+            const isVisited = prevVisited.some(c => c.cca3.cca3 === country.cca3.cca3);
+            if (isVisited) {
+                // Remove the country if it's already visited
+                return prevVisited.filter(c => c.cca3.cca3 !== country.cca3.cca3);
+            } else {
+                // Add the country if it's not visited
+                return [...prevVisited, country];
+            }
+        });
     }
+
 
     return (
         
