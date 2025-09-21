@@ -1,0 +1,122 @@
+[
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Tamim Iqbal",
+    "player_country": "Bangladesh",
+    "playing_role": "Batsman",
+    "rating": 650,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": "BDT 80,00,000"
+  },
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Mushfiqur Rahim",
+    "player_country": "Bangladesh",
+    "playing_role": "WK-Batsman",
+    "rating": 700,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly",
+    "price": "BDT 80,00,000"
+  },
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Shaheen Afridi",
+    "player_country": "Pakistan",
+    "playing_role": "Bowler",
+    "rating": 850,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast",
+    "price": "USD 80,000"
+  },
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Najmul Hossain Shanto",
+    "player_country": "Bangladesh",
+    "playing_role": "Batsman",
+    "rating": 680,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium",
+    "price": "BDT 80,00,000"
+  },
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Dawid Malan",
+    "player_country": "England",
+    "playing_role": "Batsman",
+    "rating": 760,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": "USD 80,000"
+  },
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Kyle Mayers",
+    "player_country": "West Indies",
+    "playing_role": "Batting Allrounder",
+    "rating": 720,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium",
+    "price": "USD 60,000"
+  },
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Mahmudullah",
+    "player_country": "Bangladesh",
+    "playing_role": "Batting Allrounder",
+    "rating": 670,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": "BDT 50,00,000"
+  },
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Mohammad Nabi",
+    "player_country": "Afghanistan",
+    "playing_role": "Bowling Allrounder",
+    "rating": 740,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": "USD 60,000"
+  },
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Taskin Ahmed",
+    "player_country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": 710,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": "BDT 80,00,000"
+  },
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Mehidy Hasan Miraz",
+    "player_country": "Bangladesh",
+    "playing_role": "Bowling Allrounder",
+    "rating": 690,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": "BDT 50,00,000"
+  },
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Liton Das",
+    "player_country": "Bangladesh",
+    "playing_role": "WK-Batsman",
+    "rating": 675,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "None",
+    "price": "BDT 70,00,000"
+  },
+  {
+    "player_Img": "https://avatar.iran.liara.run/public",
+    "player_name": "Imad Wasim",
+    "player_country": "Pakistan",
+    "playing_role": "Bowling Allrounder",
+    "rating": 730,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm orthodox",
+    "price": "USD 65,000"
+  }
+]
