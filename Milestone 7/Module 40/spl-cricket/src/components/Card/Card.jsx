@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Card = ({ player, setAvailableBalance, availableBalance, setPurchasedPlayers, purchasedPlayers }) => {
     
@@ -7,8 +8,12 @@ const Card = ({ player, setAvailableBalance, availableBalance, setPurchasedPlaye
     const handleSelect = (playerData) => {
         const playerPrice = player.price.split(',').join('').split('USD').join('').split('BDT').join('');
         if(availableBalance < playerPrice){
-       alert('You have not enough balance')
+       toast('You have not enough balance')
          return;
+        }
+        if(purchasedPlayers.length >= 6){
+            toast('You can select maximum 6 players')
+            return;
         }
         setIsSelected(true);
         setAvailableBalance(availableBalance - playerPrice);
