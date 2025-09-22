@@ -1,9 +1,12 @@
 import React from 'react';
+import Selectedcard from '../Selectedcard/Selectedcard';
 
-const SelectedPlayers = () => {
+const SelectedPlayers = ({ purchasedPlayers, removePlayer }) => {
     return (
-        <div className='max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-4'>
-            Selected Players Component
+        <div className='max-w-[1200px] mx-auto gap-4'>
+            {purchasedPlayers.map(player => (
+                <Selectedcard key={player.id} player={player} removePlayer={removePlayer}></Selectedcard>
+            ))}
         </div>
     );
 };
