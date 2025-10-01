@@ -1,0 +1,33 @@
+
+   App.css
+   App.jsx
+   index.css
+   main.jsx
+   tree_output.txt
+   
+---assets
+       banner-main.png
+       bg-shadow.png
+       logo-footer.png
+       logo.png
+       react.svg
+       
+---components
+    ---AvailablePlayers
+           AvailablePlayers.jsx
+           
+    ---ButtonsC
+           ButtonsC.jsx
+           
+    ---Card
+          Card.jsx
+           
+    ---NavBar
+           NavBar.jsx
+           
+    ---Selectedcard
+           Selectedcard.jsx
+           
+    ---SelectedPlayers
+            SelectedPlayers.jsx
+            
